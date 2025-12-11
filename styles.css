@@ -1,0 +1,1 @@
+/* Base styles */\n:root {\n  --bg: #0f172a;\n  --accent: #38bdf8;\n}\nbody {\n  margin: 0;\n  font-family: system-ui, -apple-system, sans-serif;\n  background: var(--bg);\n  color: #e5e7eb;\n}\n/* Mobile-first layout */\n#hero {\n  padding: 4rem 1.5rem;\n}\n@media (min-width: 768px) {\n  #hero {\n    display: flex;\n    justify-content: space-between;\n  }\n}
